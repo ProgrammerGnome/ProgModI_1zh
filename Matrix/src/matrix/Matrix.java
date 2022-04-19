@@ -46,6 +46,7 @@ public class Matrix {
         int kiir = add-counter;
         System.out.print(kiir);
     }
+    //Ez a függvény hibásan működik.
     public static void indexOfColumnsWithSameValues(int[][] two_dimensional_matrix){
         int max_column = 0;
         for (int i = 0; i < two_dimensional_matrix.length; ++i) {
